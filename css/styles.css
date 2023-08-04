@@ -207,7 +207,7 @@ header {
 }
 
 .text-banner {
-    margin: 50px 150px;
+    margin: 50px 100px;
     text-align: center;
     font-size: 1.75em;
     background-color: #caf0f8;
@@ -219,7 +219,7 @@ header {
 }
 
 .main-category, .main-category-1 {
-    margin: 40px 60px 0px;
+    margin: 40px 10px 0;
     display: block;
     justify-content: space-between;
     align-items: center;
@@ -253,7 +253,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 15px 50px;
+    margin: 15px 0;
 }
 
 .book-data {
@@ -284,15 +284,17 @@ header {
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+    font-size: 20px;
 }
 
 .book-data p {
     max-height: 50px;
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+    font-size: 14px;
 }
 
 .book-data:hover {
@@ -660,6 +662,10 @@ input[type], select, textarea {
 
     #menu-bar:checked ~ .menu {
         display: block;
+    }
+
+    .menu .menu-list li.dropdown .submenu {
+        display: none !important;
     }
 
     label[for="menu-bar"] {
