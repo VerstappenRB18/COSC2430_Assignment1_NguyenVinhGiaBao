@@ -20,6 +20,15 @@
 let mybutton = document.getElementById("top-button");
 let footer = document.querySelector("footer");
 
+let bigImg = document.getElementById("big-img");
+let smallImg = document.getElementsByClassName("small-img");
+
+for (let i = 0; i < smallImg.length; i++) {
+    smallImg[i].onclick = function() {
+        bigImg.src = smallImg[i].src;
+    }
+}
+
 window.onscroll = function() {
     scrollFunction()
 };
@@ -40,15 +49,4 @@ function scrollFunction() {
     }
 }
 
-var bigImg = document.getElementById("big-img");
-var smallImg = document.getElementsByClassName("small-img");
-
-smallImg[0].onclick = function(){
-    bigImg.src = smallImg[0].src;
-}
-smallImg[1].onclick = function(){
-    bigImg.src = smallImg[1].src;
-}
-smallImg[2].onclick = function(){
-    bigImg.src = smallImg[2].src;
-}
+scrollFunction();

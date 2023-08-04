@@ -567,7 +567,7 @@ input[type], select, textarea {
     align-items: center;
 }
 
-.newsletter-optons label {
+.newsletter-options label {
     width: 60px;
     white-space: nowrap;
     display: inline-flex;
@@ -794,7 +794,7 @@ input[type], select, textarea {
 
 @media only screen and (max-width: 477px) {
 
-    .intro {
+   .intro {
         padding: 20px;
     }
 
@@ -813,7 +813,6 @@ input[type], select, textarea {
         z-index: 0;
         margin-right: 0;
     }
-
 
     .display {
         margin: 50px 40px;
@@ -840,5 +839,19 @@ input[type], select, textarea {
     #book-details .book-info {
         width: 100%;
         margin-top: 10px;
+    }
+
+    .contact-pref, .newsletter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pref-label, .newsletter-label {
+        width: 100%;
+    }
+
+    .pref-options, .newsletter-options {
+        display: flex;
+        justify-content: space-between;
     }
 }
