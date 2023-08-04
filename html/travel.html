@@ -1,0 +1,223 @@
+<!--  
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023B
+    Assessment: Assignment 1
+    Author: Nguyen Vinh Gia Bao
+    ID: s3986287
+    Acknowledgement: 
+    https://www.amazon.com/s?bbn=283155&rh=n%3A283155&dc&qid=1689659947&ref=lp_10898_ex_n_1
+    https://www.canva.com/
+    https://www.youtube.com/watch?v=bk3Y4heVdFs&ab_channel=Mr.WebDesigner
+    https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    https://www.30secondsofcode.org/css/s/hover-underline-animation/
+    https://www.bookswagon.com
+    https://www.thriftbooks.com
+    https://unsplash.com/photos/xY55bL5mZAM
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide Books | Books About Travel | Nicereads&reg;</title>
+    <link rel="icon" type="image/png" href="../assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+ </head>
+     <body>
+        <header id="head">
+            <nav class="main-nav">
+                <div class="logo">
+                    <a href="../index.html"><img src="../assets/Nicereads.png" alt="Nicereads logo"></a>
+                </div>
+ 
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar">&#9776;</label>
+ 
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li><a href="../index.html" class="hover-underline-animation">Home</a></li>
+                        <li class="dropdown">
+                            <a href="textbooks.html" class="hover-underline-animation">Textbooks &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="textbooks.html#history">History</a></li>
+                                    <li class="subitem"><a href="textbooks.html#math-science">Math and Science</a></li>
+                                    <li class="subitem"><a href="textbooks.html#technology">Technology</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="law.html" class="hover-underline-animation">Law &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="law.html#criminal">Criminal Law</a></li>
+                                    <li class="subitem"><a href="law.html#international">International Law</a></li>
+                                    <li class="subitem"><a href="law.html#legal-history">Legal History</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="travel.html" class="hover-underline-animation">Travel &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="travel.html#asia">Asia</a></li>
+                                    <li class="subitem"><a href="travel.html#carribean">Carribean</a></li>
+                                    <li class="subitem"><a href="travel.html#europe">Europe</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="contact.html" class="hover-underline-animation">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="text-banner">
+                <h1>Travel Books</h1>
+            </section>
+            <section class="display">
+                <div class="main-category-1">
+                    <h2 id="asia">Asia</h2>
+                    <p>Embark on an oriental odyssey</p>
+                </div>
+                <div class="book-row">
+                    <div class="book-data">
+                        <a href="product-9.html" title="View details"><img src="../assets/travel/thailand.jpg" alt="Lonely Planet Thailand 18"></a>
+                        <h5><a href="product-9.html">Lonely Planet Thailand 18</a></h5>
+                        <p>David Eimer, & 9 more</p>
+                        <p>$26.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-29.html" title="View details"><img src="../assets/travel/annapurna.jpg" alt="Annapurna"></a>
+                        <h5><a href="product-29.html">Annapurna: The First Conquest Of An 8,000-Meter Peak</a></h5>
+                        <p>Maurice Herzog</p>
+                        <p>$16.95</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-30.html" title="View details"><img src="../assets/travel/iron-rooster.jpg" alt="Riding the Iron Rooster"></a>
+                        <h5><a href="product-30.html">Riding the Iron Rooster: By Train Through China</a></h5>
+                        <p>Paul Theroux</p>
+                        <p>$12.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-31.html" title="View details"><img src="../assets/travel/japan.jpg" alt="DK Eyewitness Japan"></a>
+                        <h5><a href="product-31.html">DK Eyewitness Japan</a></h5>
+                        <p>DK Eyewitness</p>
+                        <p>$27.99</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="display">
+                <div class="main-category-1">
+                    <h2 id="carribean">Carribean</h2>
+                    <p>Set sail to sun-kissed shores</p>
+                </div>
+                <div class="book-row">
+                    <div class="book-data">
+                        <a href="product-11.html" title="View details"><img src="../assets/travel/puerto-rico.jpg" alt="Fodor's Puerto Rico"></a>
+                        <h5><a href="product-11.html">Fodor's Puerto Rico</a></h5>
+                        <p>Fodor's Travel Guide</p>
+                        <p>$17.69</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-10.html" title="View details"><img src="../assets/travel/mangoes.jpg" alt="An Embarrassment of Mangoes"></a>
+                        <h5><a href="product-10.html">An Embarrassment of Mangoes: A Caribbean Interlude</a></h5>
+                        <p>Ann Vanderhoof</p>
+                        <p>$15.00</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-32.html" title="View details"><img src="../assets/travel/grand-cayman.jpg" alt="Reef Smart Guides Grand Cayman"></a>
+                        <h5><a href="product-32.html">Reef Smart Guides Grand Cayman: Scuba Dive. Snorkel. Surf.</a></h5>
+                        <p>Peter McDougall, & 2 more</p>
+                        <p>$25.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-33.html" title="View details"><img src="../assets/travel/st-lucia.jpg" alt="The Mini Rough Guide to St. Lucia"></a>
+                        <h5><a href="product-33.html">The Mini Rough Guide to St. Lucia</a></h5>
+                        <p>Rough Guides</p>
+                        <p>$8.99</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="display">
+                <div class="main-category-1">
+                    <h2 id="europe">Europe</h2>
+                    <p>Journey accross diverse borders</p>
+                </div>
+                <div class="book-row">
+                    <div class="book-data">
+                        <a href="product-12.html" title="View details"><img src="../assets/travel/mediterranean.jpg" alt="Mediterranean Cruise Ports"></a>
+                        <h5><a href="product-12.html">Rick Steves Mediterranean Cruise Ports</a></h5>
+                        <p>Rick Steves</p>
+                        <p>$21.49</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-34.html" title="View details"><img src="../assets/travel/101-weekends.jpg" alt="101 Weekends in Europe, 2nd Edition"></a>
+                        <h5><a href="product-34.html">101 Weekends in Europe, 2nd Edition</a></h5>
+                        <p>Robin Barton</p>
+                        <p>$19.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-35.html" title="View details"><img src="../assets/travel/amsterdam.jpg" alt="Moon Amsterdam, Brussels & Bruges"></a>
+                        <h5><a href="product-35.html">Moon Amsterdam, Brussels & Bruges</a></h5>
+                        <p>Karen Turner</p>
+                        <p>$16.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-36.html" title="View details"><img src="../assets/travel/bloom.jpg" alt="London in Bloom"></a>
+                        <h5><a href="product-36.html">London in Bloom</a></h5>
+                        <p>Georgianna Lane</p>
+                        <p>$13.79</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a href="#head" class="btn" id="top-button" title="Back to top">&#8593;</a>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../assets/nicereads-book.png" alt="nicreads book logo">
+                </div>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Useful Links</h2>
+                    <nav class="footer-nav">
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">About Us</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Privacy Policy</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Terms</a></li>
+                            <li class="footer-nav-item"><a href="contact.html" class="footer-nav-link">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Our Reading Tips 📖</h2>
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/oz4hgSbBjeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </section>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Connect With Us 🌐</h2>
+                    <div class="footer-socials">
+                        <a href="#"><img src="../assets/Facebook.png" alt="Facebook" title="Nicereads on Facebook" /></a>
+                        <a href="#"><img src="../assets/instagram.png" alt="Instagram" title="Nicereads on Instagram" /></a>
+                        <a href="#"><img src="../assets/twitter.png" alt="Twitter" title="Nicereads on Twitter" /></a>
+                        <a href="#"><img src="../assets/youtube.png" alt="Youtube" title="Nicereads on Youtube" /></a>
+                    </div>
+                </section>
+            </div>
+            <div class="footer-bottom">
+                <p>702 Nguyen Van Linh, District 7, Ho Chi Minh City</p>
+                <p>info@nicereads.com | (123) 456-7890</p>
+                <p>&copy; 2023 Nicreads. All rights reserved.</p>
+            </div>
+        </footer>
+    <script src="../js/scripts.js"></script>
+    </body>
+</html>

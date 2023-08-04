@@ -1,0 +1,223 @@
+<!--  
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023B
+    Assessment: Assignment 1
+    Author: Nguyen Vinh Gia Bao
+    ID: s3986287
+    Acknowledgement: 
+    https://www.amazon.com/s?bbn=283155&rh=n%3A283155&dc&qid=1689659947&ref=lp_10898_ex_n_1
+    https://www.canva.com/
+    https://www.youtube.com/watch?v=bk3Y4heVdFs&ab_channel=Mr.WebDesigner
+    https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    https://www.30secondsofcode.org/css/s/hover-underline-animation/
+    https://www.bookswagon.com
+    https://www.thriftbooks.com
+    https://unsplash.com/photos/xY55bL5mZAM
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Books | Nicereads&reg;</title>
+    <link rel="icon" type="image/png" href="../assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+ </head>
+     <body>
+        <header id="head">
+            <nav class="main-nav">
+                <div class="logo">
+                    <a href="../index.html"><img src="../assets/Nicereads.png" alt="Nicereads logo"></a>
+                </div>
+ 
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar">&#9776;</label>
+ 
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li><a href="../index.html" class="hover-underline-animation">Home</a></li>
+                        <li class="dropdown">
+                            <a href="textbooks.html" class="hover-underline-animation">Textbooks &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="textbooks.html#history">History</a></li>
+                                    <li class="subitem"><a href="textbooks.html#math-science">Math and Science</a></li>
+                                    <li class="subitem"><a href="textbooks.html#technology">Technology</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="law.html" class="hover-underline-animation">Law &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="law.html#criminal">Criminal Law</a></li>
+                                    <li class="subitem"><a href="law.html#international">International Law</a></li>
+                                    <li class="subitem"><a href="law.html#legal-history">Legal History</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="travel.html" class="hover-underline-animation">Travel &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="travel.html#asia">Asia</a></li>
+                                    <li class="subitem"><a href="travel.html#carribean">Carribean</a></li>
+                                    <li class="subitem"><a href="travel.html#europe">Europe</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="contact.html" class="hover-underline-animation">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="text-banner">
+                <h1>Law Books</h1>
+            </section>
+            <section class="display">
+                <div class="main-category-1">
+                    <h2 id="criminal">Criminal Law</h2>
+                    <p>Understanding the spectrum of crime</p>
+                </div>
+                <div class="book-row">
+                    <div class="book-data">
+                        <a href="product-5.html" title="View details"><img src="../assets/law/smith-law.jpg" alt="Essentials of Criminal Law"></a>
+                        <h5><a href="product-5.html">Smith, Hogan, and Ormerod's Essentials of Criminal Law</a></h5>
+                        <p>John Child, David Ormerod</p>
+                        <p>$41.84</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-21.html" title="View details"><img src="../assets/law/crime-example.jpg" alt="Examples & Explanations for Criminal Law"></a>
+                        <h5><a href="product-21.html">Examples & Explanations for Criminal Law</a></h5>
+                        <p>Richard G. Singer, & 2 more</p>
+                        <p>$68.95</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-22.html" title="View details"><img src="../assets/law/contemporary-law.jpg" alt="Contemporary Criminal Law"></a>
+                        <h5><a href="product-22.html">Contemporary Criminal Law: Concepts, Cases, and Controversies</a></h5>
+                        <p>Matthew Lippman</p>
+                        <p>$155.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-23.html" title="View details"><img src="../assets/law/forensic.jpg" alt="The Forensic Casebook"></a>
+                        <h5><a href="product-23.html">The Forensic Casebook: The Science of Crime Scene Investigation</a></h5>
+                        <p>Ngaire E. Genge</p>
+                        <p>$22.00</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="display">
+                <div class="main-category-1">
+                    <h2 id="international">International Law</h2>
+                    <p>Uniting nations under the banner of law</p>
+                </div>
+                <div class="book-row">
+                    <div class="book-data">
+                        <a href="product-8.html" title="View details"><img src="../assets/law/inter-law.jpg" alt="International Law: A Very Short Introduction"></a>
+                        <h5><a href="product-8.html">International Law: A Very Short Introduction</a></h5>
+                        <p>Vaughan Lowe</p>
+                        <p>$11.94</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-24.html" title="View details"><img src="../assets/law/un-law.jpg" alt="Universal Declaration of Human Rights"></a>
+                        <h5><a href="product-24.html">Universal Declaration of Human Rights</a></h5>
+                        <p>United Nations Publications</p>
+                        <p>$3.00</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-25.html" title="View details"><img src="../assets/law/int-law.jpg" alt="International Law in World Politics"></a>
+                        <h5><a href="product-25.html">International Law in World Politics: An Introduction, 3rd ed.</a></h5>
+                        <p>Shirley V. Scott</p>
+                        <p>$27.50</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-26.html" title="View details"><img src="../assets/law/islands.jpg" alt="Islands and International Law"></a>
+                        <h5><a href="product-26.html">Islands and International Law</a></h5>
+                        <p>Donald R Rothwell</p>
+                        <p>$102.42</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="display">
+                <div class="main-category-1">
+                    <h2 id="legal-history">Legal History</h2>
+                    <p>Unearthing the origins of justice</p>
+                </div>
+                <div class="book-row">
+                    <div class="book-data">
+                        <a href="product-6.html" title="View details"><img src="../assets/law/justice-trial.jpg" alt="Justice At Trial"></a>
+                        <h5><a href="product-6.html">Justice at Trial: Courtroom Battles and Groundbreaking Cases</a></h5>
+                        <p>James J. Brosnahan</p>
+                        <p>$36.00</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-7.html" title="View details"><img src="../assets/law/roman-law.jpg" alt="Roman Law and the Legal World of the Romans"></a>
+                        <h5><a href="product-7.html">Roman Law and the Legal World of the Romans</a></h5>
+                        <p>Andrew M. Riggsby</p>
+                        <p>$38.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-27.html" title="View details"><img src="../assets/law/court.jpeg" alt="Storming the Court"></a>
+                        <h5><a href="product-27.html">Storming the Court: How a Band of Law Students Fought the President--And Won</a></h5>
+                        <p>Brandt Goldstein</p>
+                        <p>$12.89</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-28.html" title="View details"><img src="../assets/law/london.jpeg" alt="Miscarriages of Justice"></a>
+                        <h5><a href="product-28.html">Miscarriages of Justice: Famous London Cases</a></h5>
+                        <p>John J. Eddleston</p>
+                        <p>$34.97</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a href="#head" class="btn" id="top-button" title="Back to top">&#8593;</a>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../assets/nicereads-book.png" alt="nicreads book logo">
+                </div>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Useful Links</h2>
+                    <nav class="footer-nav">
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">About Us</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Privacy Policy</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Terms</a></li>
+                            <li class="footer-nav-item"><a href="contact.html" class="footer-nav-link">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Our Reading Tips 📖</h2>
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/oz4hgSbBjeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </section>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Connect With Us 🌐</h2>
+                    <div class="footer-socials">
+                        <a href="#"><img src="../assets/Facebook.png" alt="Facebook" title="Nicereads on Facebook" /></a>
+                        <a href="#"><img src="../assets/instagram.png" alt="Instagram" title="Nicereads on Instagram" /></a>
+                        <a href="#"><img src="../assets/twitter.png" alt="Twitter" title="Nicereads on Twitter" /></a>
+                        <a href="#"><img src="../assets/youtube.png" alt="Youtube" title="Nicereads on Youtube" /></a>
+                    </div>
+                </section>
+            </div>
+            <div class="footer-bottom">
+                <p>702 Nguyen Van Linh, District 7, Ho Chi Minh City</p>
+                <p>info@nicereads.com | (123) 456-7890</p>
+                <p>&copy; 2023 Nicreads. All rights reserved.</p>
+            </div>
+        </footer>
+    <script src="../js/scripts.js"></script>
+    </body>
+</html>

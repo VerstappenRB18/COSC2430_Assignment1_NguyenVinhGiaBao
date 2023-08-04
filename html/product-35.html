@@ -1,0 +1,167 @@
+<!--  
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023B
+    Assessment: Assignment 1
+    Author: Nguyen Vinh Gia Bao
+    ID: s3986287
+    Acknowledgement: 
+    https://www.amazon.com/s?bbn=283155&rh=n%3A283155&dc&qid=1689659947&ref=lp_10898_ex_n_1
+    https://www.canva.com/
+    https://www.youtube.com/watch?v=bk3Y4heVdFs&ab_channel=Mr.WebDesigner
+    https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    https://www.30secondsofcode.org/css/s/hover-underline-animation/
+    https://www.bookswagon.com
+    https://www.thriftbooks.com
+    https://unsplash.com/photos/xY55bL5mZAM
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Amsterdam, Brussels & Bruges by Karen Turner | Nicereads&reg;</title>
+    <link rel="icon" type="image/png" href="../assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+ </head>
+     <body>
+        <header id="head">
+            <nav class="main-nav">
+                <div class="logo">
+                    <a href="../index.html"><img src="../assets/Nicereads.png" alt="Nicereads logo"></a>
+                </div>
+ 
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar">&#9776;</label>
+ 
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li><a href="../index.html" class="hover-underline-animation">Home</a></li>
+                        <li class="dropdown">
+                            <a href="textbooks.html" class="hover-underline-animation">Textbooks &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="textbooks.html#history">History</a></li>
+                                    <li class="subitem"><a href="textbooks.html#math-science">Math and Science</a></li>
+                                    <li class="subitem"><a href="textbooks.html#technology">Technology</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="law.html" class="hover-underline-animation">Law &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="law.html#criminal">Criminal Law</a></li>
+                                    <li class="subitem"><a href="law.html#international">International Law</a></li>
+                                    <li class="subitem"><a href="law.html#legal-history">Legal History</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="travel.html" class="hover-underline-animation">Travel &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="travel.html#asia">Asia</a></li>
+                                    <li class="subitem"><a href="travel.html#carribean">Carribean</a></li>
+                                    <li class="subitem"><a href="travel.html#europe">Europe</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="contact.html" class="hover-underline-animation">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="book-details">
+                <div class="img-section">
+                    <div class="img-cover">
+                        <img src="../assets/travel/amsterdam.jpg"  width="100%" alt="Moon Amsterdam, Brussels & Bruges" id="big-img">
+                    </div>
+                    <div class="small-img-section">
+                        <div class="small-imgs">
+                            <img src="../assets/travel/amsterdam.jpg" width="100%" alt="front-cover" class="small-img">
+                        </div>
+                        <div class="small-imgs">
+                            <img src="../assets/travel/amsterdam-1.jpg" width="100%" alt="book-content" class="small-img">
+                        </div>
+                        <div class="small-imgs">
+                            <img src="../assets/travel/amsterdam-2.jpg" width="100%" alt="book-content" class="small-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="book-info">
+                    <h6 class="breadcrumbs">
+                        <a href="../index.html">Home</a> >
+                        <a href="travel.html">Travel</a> >
+                        <a href="travel.html#europe">Europe</a> >
+                        <a href="product-35.html">Moon Amsterdam, Brussels & Bruges</a>
+                    </h6>
+                    <h4>Moon Amsterdam, Brussels & Bruges</h4>
+                    <p>by Karen Turner</p>
+                    <h2>$16.99</h2>
+                    <a href="#" class="btn" id="new-button">Add to Cart</a>
+                    <a href="#" class="btn" id="new-button">Buy Now</a>
+                    <h4>Description</h4>
+                    <span class="description">
+                        <p><strong>Experience the scenic canals, colorful markets, and medieval history of the top cities in Belgium and the Netherlands. Inside <i>Moon Amsterdam, Brussels & Bruges</i> you'll find:</strong></p>
+                        <br>
+                        <ul>
+                            <li><strong>Flexible itineraries</strong> for 1 to 5 days in Amsterdam, Brussels, and Bruges that can be combined into a longer trip</li>
+                            <li><strong>Strategic advice</strong> for foodies, art lovers, history buffs, and more</li>
+                            <li><strong>Top experiences and unique highlights:</strong> Cycle along serene canals and narrow brick roads past baroque architecture, or stroll through Bruges's grand Markt Square. Marvel at the works of famed Dutch and Flemish painters, walk through history at the Anne Frank House, or remember the fallen in the cemeteries and memorials of Ypres</li>
+                            <li><strong>The best local flavors:</strong> Sip on Amsterdam's specialty liquor at a jenever tasting room, or enjoy a glass of authentic Trappist beer produced in monasteries. Snack on Belgian <i>frites</i>, sample <i>stroopwafel</i>, and savor scrumptious local chocolates</li>
+                            <li><strong>Ideas for side trips</strong> from each city, including Lisse, The Hague, Rotterdam, and more</li>
+                            <li><strong>Expert insight</strong> from Karen Turner, an expat who's called the Netherlands home for years</li>
+                            <li><strong>Helpful resources on COVID-19</strong> and traveling to Amsterdam, Brussels, and Bruges</li>
+                            <li><strong>Background information</strong> on the landscape, history, and cultural customs of each city</li>
+                            <li><strong>Handy tools</strong> such as visa information, Dutch, Flemish, and French phrasebooks, and tips for seniors, LGBTQ+ travelers, visitors with children, and more</li>
+                        </ul>
+                        <p><strong>Experience the best of these three cities at your own pace with <i>Moon Amsterdam, Brussels & Bruges.</i></strong></p>
+                    </span>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../assets/nicereads-book.png" alt="nicreads book logo">
+                </div>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Useful Links</h2>
+                    <nav class="footer-nav">
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">About Us</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Privacy Policy</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Terms</a></li>
+                            <li class="footer-nav-item"><a href="contact.html" class="footer-nav-link">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Our Reading Tips 📖</h2>
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/oz4hgSbBjeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </section>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Connect With Us 🌐</h2>
+                    <div class="footer-socials">
+                        <a href="#"><img src="../assets/Facebook.png" alt="Facebook" title="Nicereads on Facebook" /></a>
+                        <a href="#"><img src="../assets/instagram.png" alt="Instagram" title="Nicereads on Instagram" /></a>
+                        <a href="#"><img src="../assets/twitter.png" alt="Twitter" title="Nicereads on Twitter" /></a>
+                        <a href="#"><img src="../assets/youtube.png" alt="Youtube" title="Nicereads on Youtube" /></a>
+                    </div>
+                </section>
+            </div>
+            <div class="footer-bottom">
+                <p>702 Nguyen Van Linh, District 7, Ho Chi Minh City</p>
+                <p>info@nicereads.com | (123) 456-7890</p>
+                <p>&copy; 2023 Nicreads. All rights reserved.</p>
+            </div>
+        </footer>
+    <script src="../js/scripts.js"></script>
+    </body>
+</html>

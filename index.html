@@ -1,0 +1,245 @@
+<!--  
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023B
+    Assessment: Assignment 1
+    Author: Nguyen Vinh Gia Bao
+    ID: s3986287
+    Acknowledgement: 
+    https://www.amazon.com/s?bbn=283155&rh=n%3A283155&dc&qid=1689659947&ref=lp_10898_ex_n_1
+    https://www.canva.com/
+    https://www.youtube.com/watch?v=bk3Y4heVdFs&ab_channel=Mr.WebDesigner
+    https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    https://www.30secondsofcode.org/css/s/hover-underline-animation/
+    https://www.bookswagon.com
+    https://www.thriftbooks.com
+    https://unsplash.com/photos/xY55bL5mZAM
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicereads&reg;: Turn readers into dreamers</title>
+    <link rel="icon" type="image/png" href="../assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+    <body>
+        <header id="head">
+            <nav class="main-nav">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/Nicereads.png" alt="Nicereads logo"></a>
+                </div>
+
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar">&#9776;</label>
+
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li><a href="index.html" class="hover-underline-animation">Home</a></li>
+                        <li class="dropdown">
+                            <a href="html/textbooks.html" class="hover-underline-animation">Textbooks &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="html/textbooks.html#history">History</a></li>
+                                    <li class="subitem"><a href="html/textbooks.html#math-science">Math and Science</a></li>
+                                    <li class="subitem"><a href="html/textbooks.html#technology">Technology</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="html/law.html" class="hover-underline-animation">Law &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="html/law.html#criminal">Criminal Law</a></li>
+                                    <li class="subitem"><a href="html/law.html#international">International Law</a></li>
+                                    <li class="subitem"><a href="html/law.html#legal-history">Legal History</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="html/travel.html" class="hover-underline-animation">Travel &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="html/travel.html#asia">Asia</a></li>
+                                    <li class="subitem"><a href="html/travel.html#carribean">Carribean</a></li>
+                                    <li class="subitem"><a href="html/travel.html#europe">Europe</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="html/contact.html" class="hover-underline-animation">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <section>
+                <article class="intro">
+                    <h1>SPECIALLY CURATED BOOKS, JUST FOR YOU</h1>
+                    <p>Exciting offer for students who purchase FIVE items or more.</p>
+                    <p>Click below.</p>
+                    <br>
+                    <a href="#textbooks" class="btn"><b>SHOP NOW</b></a>
+                </article>
+                <figure class="hero">
+                    <img src="assets/stacks.jpg" alt="a stack of books">
+                </figure>
+            </section>
+        </header>
+        <main>
+            <section class="text-banner">
+                <h1>Our best prices, all in one place.</h1>
+            </section>
+            <section class="display">
+                <div class="main-category">
+                    <a href="html/textbooks.html">
+                        <h2 id="textbooks">Textbooks</h2>
+                    </a>
+                    <p>Exploring the materials for success</p>
+                </div>
+                <div class="book-row">
+                    <div class="book-data">
+                        <a href="html/product-1.html" title="View details">
+                            <img src="assets/textbooks/inequalities.jpg" alt="Inequalities, Exponents and Absolute Value">
+                        </a>
+                        <h5>
+                            <a href="html/product-1.html">Inequalities, Exponents and Absolute Value</a>
+                        </h5>
+                        <p>Humbert Cole</p>
+                        <p>$9.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="html/product-2.html" title="View details"><img src="assets/textbooks/technology-civ.jpeg" alt="Technology in World Civilization"></a>
+                        <h5><a href="html/product-2.html">Technology in World Civilization, revised and expanded edition: A Thousand-Year History</a></h5>
+                        <p>Arnold Pacey, Francesca Bray</p>
+                        <p>$40.00</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="html/product-3.html" title="View details"><img src="assets/textbooks/physics.jpg" alt="Physics for Scientists and Engineers"></a>
+                        <h5><a href="html/product-3.html">Physics for Scientists and Engineers: A Strategic Approach with Modern Physics</a></h5>
+                        <p>Randall D. Knight</p>
+                        <p>$261.32</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="html/product-4.html" title="View details"><img src="assets/textbooks/battery.jpg" alt="Battery Technology Crash Course"></a>
+                        <h5><a href="html/product-4.html">Battery Technology Crash Course: A Concise Introduction</a></h5>
+                        <p>Slobodan Petrovic</p>
+                        <p>$36.97</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="display">
+                <div class="main-category">
+                    <a href="html/law.html">
+                        <h2 id="law">Law</h2>
+                    </a>
+                    <p>Navigating the complexities of justice</p>
+                </div>
+                <div class="book-row">
+                    <div class="book-data">
+                        <a href="html/product-5.html" title="View details"><img src="assets/law/smith-law.jpg" alt="Essentials of Criminal Law"></a>
+                        <h5><a href="html/product-5.html">Smith, Hogan, and Ormerod's Essentials of Criminal Law</a></h5>
+                        <p>John Child, David Ormerod</p>
+                        <p>$41.84</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="html/product-6.html" title="View details"><img src="assets/law/justice-trial.jpg" alt="Justice At Trial"></a>
+                        <h5><a href="html/product-6.html">Justice at Trial: Courtroom Battles and Groundbreaking Cases</a></h5>
+                        <p>James J. Brosnahan</p>
+                        <p>$36.00</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="html/product-7.html" title="View details"><img src="assets/law/roman-law.jpg" alt="Roman Law and the Legal World of the Romans"></a>
+                        <h5><a href="html/product-7.html">Roman Law and the Legal World of the Romans</a></h5>
+                        <p>Andrew M. Riggsby</p>
+                        <p>$38.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="html/product-8.html" title="View details"><img src="assets/law/inter-law.jpg" alt="International Law: A Very Short Introduction"></a>
+                        <h5><a href="html/product-8.html">International Law: A Very Short Introduction</a></h5>
+                        <p>Vaughan Lowe</p>
+                        <p>$11.94</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="display">
+                <div class="main-category">
+                    <a href="html/travel.html">
+                        <h2 id="travel">Travel</h2>
+                    </a>
+                    <p>Discovering captivating destinations and adventurous routes</p>
+                </div>
+                <div class="book-row">
+                    <div class="book-data">
+                        <a href="html/product-9.html" title="View details"><img src="assets/travel/thailand.jpg" alt="Lonely Planet Thailand 18"></a>
+                        <h5><a href="html/product-9.html">Lonely Planet Thailand 18</a></h5>
+                        <p>David Eimer, & 9 more</p>
+                        <p>$26.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="html/product-10.html" title="View details"><img src="assets/travel/mangoes.jpg" alt="An Embarrassment of Mangoes"></a>
+                        <h5><a href="html/product-10.html">An Embarrassment of Mangoes: A Caribbean Interlude</a></h5>
+                        <p>Ann Vanderhoof</p>
+                        <p>$15.00</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="html/product-11.html" title="View details"><img src="assets/travel/puerto-rico.jpg" alt="Fodor's Puerto Rico"></a>
+                        <h5><a href="html/product-11.html">Fodor's Puerto Rico</a></h5>
+                        <p>Fodor's Travel Guide</p>
+                        <p>$17.69</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="html/product-12.html" title="View details"><img src="assets/travel/mediterranean.jpg" alt="Mediterranean Cruise Ports"></a>
+                        <h5><a href="html/product-12.html">Rick Steves Mediterranean Cruise Ports</a></h5>
+                        <p>Rick Steves</p>
+                        <p>$21.49</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a href="#head" class="btn" id="top-button" title="Back to top">&#8593;</a>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/nicereads-book.png" alt="nicreads book logo">
+                </div>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Useful Links</h2>
+                    <nav class="footer-nav">
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">About Us</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Privacy Policy</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Terms</a></li>
+                            <li class="footer-nav-item"><a href="html/contact.html" class="footer-nav-link">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Our Reading Tips 📖</h2>
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/oz4hgSbBjeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </section>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Connect With Us 🌐</h2>
+                    <div class="footer-socials">
+                        <a href="#"><img src="assets/Facebook.png" alt="Facebook" title="Nicereads on Facebook" /></a>
+                        <a href="#"><img src="assets/instagram.png" alt="Instagram" title="Nicereads on Instagram" /></a>
+                        <a href="#"><img src="assets/twitter.png" alt="Twitter" title="Nicereads on Twitter" /></a>
+                        <a href="#"><img src="assets/youtube.png" alt="Youtube" title="Nicereads on Youtube" /></a>
+                    </div>
+                </section>
+            </div>
+            <div class="footer-bottom">
+                <p>702 Nguyen Van Linh, District 7, Ho Chi Minh City</p>
+                <p>info@nicereads.com | (123) 456-7890</p>
+                <p>&copy; 2023 Nicreads. All rights reserved.</p>
+            </div>
+        </footer>
+    <script src="js/scripts.js"></script>
+    </body>
+</html>

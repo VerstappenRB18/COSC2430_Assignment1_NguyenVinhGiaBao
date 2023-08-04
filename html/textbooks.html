@@ -1,0 +1,227 @@
+<!--  
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023B
+    Assessment: Assignment 1
+    Author: Nguyen Vinh Gia Bao
+    ID: s3986287
+    Acknowledgement: 
+    https://www.amazon.com/s?bbn=283155&rh=n%3A283155&dc&qid=1689659947&ref=lp_10898_ex_n_1
+    https://www.canva.com/
+    https://www.youtube.com/watch?v=bk3Y4heVdFs&ab_channel=Mr.WebDesigner
+    https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    https://www.30secondsofcode.org/css/s/hover-underline-animation/
+    https://www.bookswagon.com
+    https://www.thriftbooks.com
+    https://unsplash.com/photos/xY55bL5mZAM
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textbooks | Nicereads&reg;</title>
+    <link rel="icon" type="image/png" href="../assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+ </head>
+     <body>
+        <header id="head">
+            <nav class="main-nav">
+                <div class="logo">
+                    <a href="../index.html"><img src="../assets/Nicereads.png" alt="Nicereads logo"></a>
+                </div>
+ 
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar">&#9776;</label>
+ 
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li><a href="../index.html" class="hover-underline-animation">Home</a></li>
+                        <li class="dropdown">
+                            <a href="textbooks.html" class="hover-underline-animation">Textbooks &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="textbooks.html#history">History</a></li>
+                                    <li class="subitem"><a href="textbooks.html#math-science">Math and Science</a></li>
+                                    <li class="subitem"><a href="textbooks.html#technology">Technology</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="law.html" class="hover-underline-animation">Law &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="law.html#criminal">Criminal Law</a></li>
+                                    <li class="subitem"><a href="law.html#international">International Law</a></li>
+                                    <li class="subitem"><a href="law.html#legal-history">Legal History</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="travel.html" class="hover-underline-animation">Travel &#9660;</a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="subitem"><a href="travel.html#asia">Asia</a></li>
+                                    <li class="subitem"><a href="travel.html#carribean">Carribean</a></li>
+                                    <li class="subitem"><a href="travel.html#europe">Europe</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="contact.html" class="hover-underline-animation">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="text-banner">
+                <h1>Textbooks</h1>
+            </section>
+            <section class="display">
+                <div class="main-category-1">
+                    <h2 id="history">History</h2>
+                    <p>Delving into the depths of the past</p>
+                </div>
+                <div class="book-row">
+                    <div class="book-data">
+                        <a href="product-13.html" title="View details"><img src="../assets/textbooks/public-history.jpg" alt="Introduction to Public History"></a>
+                        <h5><a href="product-13.html">Introduction to Public History: Interpreting the Past, Engaging Audiences</a></h5>
+                        <p>Cherstin M. Lyon, & 2 more</p>
+                        <p>$43.94</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-2.html" title="View details"><img src="../assets/textbooks/technology-civ.jpeg" alt="Technology in World Civilization"></a>
+                        <h5><a href="product-2.html">Technology in World Civilization, revised and expanded edition: A Thousand-Year History</a></h5>
+                        <p>Arnold Pacey, Francesca Bray</p>
+                        <p>$40.00</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-14.html" title="View details"><img src="../assets/textbooks/korea.jpg" alt="Korea: A History"></a>
+                        <h5><a href="product-14.html">Korea: A History</a></h5>
+                        <p>Eugene Y. Park</p>
+                        <p>$35.00</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-15.html" title="View details"><img src="../assets/textbooks/medieval.jpg" alt="Medieval Chivalry"></a>
+                        <h5><a href="product-15.html">Medieval Chivalry (Cambridge Medieval Textbooks)</a></h5>
+                        <p>Richard W. Kaeuper</p>
+                        <p>$34.99</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="display">
+                <div class="main-category-1">
+                    <h2 id="math-science">Math and Science</h2>
+                    <p>Unmasking the secrets of calculations and experiments</p>
+                </div>
+                <div class="book-row">
+                    <div class="book-data">
+                        <a href="product-1.html" title="View details">
+                            <img src="../assets/textbooks/inequalities.jpg" alt="Inequalities, Exponents and Absolute Value">
+                        </a>
+                        <h5>
+                            <a href="product-1.html">Inequalities, Exponents and Absolute Value</a>
+                        </h5>
+                        <p>Humbert Cole</p>
+                        <p>$9.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-3.html" title="View details"><img src="../assets/textbooks/physics.jpg" alt="Physics for Scientists and Engineers"></a>
+                        <h5><a href="product-3.html">Physics for Scientists and Engineers: A Strategic Approach with Modern Physics</a></h5>
+                        <p>Randall D. Knight</p>
+                        <p>$261.32</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-16.html" title="View details"><img src="../assets/textbooks/proofs.jpg" alt="Proofs: A Long-Form Mathematics Textbook"></a>
+                        <h5><a href="product-16.html">Proofs: A Long-Form Mathematics Textbook</a></h5>
+                        <p>Jay Cummings</p>
+                        <p>$19.81</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-17.html" title="View details"><img src="../assets/textbooks/quantum.jpg" alt="Introduction to Quantum Mechanics"></a>
+                        <h5><a href="product-17.html">Introduction to Quantum Mechanics</a></h5>
+                        <p>David J. Griffiths, & 1 more</p>
+                        <p>$59.99</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="display">
+                <div class="main-category-1">
+                    <h2 id="technology">Technology</h2>
+                    <p>Bridging humanity and innovation</p>
+                </div>
+                <div class="book-row">
+                    <div class="book-data">
+                        <a href="product-4.html" title="View details"><img src="../assets/textbooks/battery.jpg" alt="Battery Technology Crash Course"></a>
+                        <h5><a href="product-4.html">Battery Technology Crash Course: A Concise Introduction</a></h5>
+                        <p>Slobodan Petrovic</p>
+                        <p>$36.97</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-18.html" title="View details"><img src="../assets/textbooks/it-vol2.jpg" alt="Information Technology Essentials Volume 2"></a>
+                        <h5><a href="product-18.html">Information Technology Essentials Volume 2: The Beginner's Guide to C#</a></h5>
+                        <p>Eric Frick</p>
+                        <p>$16.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-19.html" title="View details"><img src="../assets/textbooks/excel.jpg" alt="Excel 2019 All-in-One For Dummies"></a>
+                        <h5><a href="product-19.html">Excel 2019 All-in-One For Dummies</a></h5>
+                        <p>Greg Harvey</p>
+                        <p>$21.99</p>
+                    </div>
+                    <div class="book-data">
+                        <a href="product-20.html" title="View details"><img src="../assets/textbooks/cybersecurity.jpg" alt="Cybersecurity Essentials"></a>
+                        <h5><a href="product-20.html">Cybersecurity Essentials</a></h5>
+                        <p>Charles J. Brooks, & 3 more</p>
+                        <p>$23.31</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a href="#head" class="btn" id="top-button" title="Back to top">&#8593;</a>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../assets/nicereads-book.png" alt="nicreads book logo">
+                </div>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Useful Links</h2>
+                    <nav class="footer-nav">
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">About Us</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Privacy Policy</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Terms</a></li>
+                            <li class="footer-nav-item"><a href="contact.html" class="footer-nav-link">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Our Reading Tips 📖</h2>
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/oz4hgSbBjeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </section>
+                <section class="footer-section">
+                    <h2 class="footer-heading">Connect With Us 🌐</h2>
+                    <div class="footer-socials">
+                        <a href="#"><img src="../assets/Facebook.png" alt="Facebook" title="Nicereads on Facebook" /></a>
+                        <a href="#"><img src="../assets/instagram.png" alt="Instagram" title="Nicereads on Instagram" /></a>
+                        <a href="#"><img src="../assets/twitter.png" alt="Twitter" title="Nicereads on Twitter" /></a>
+                        <a href="#"><img src="../assets/youtube.png" alt="Youtube" title="Nicereads on Youtube" /></a>
+                    </div>
+                </section>
+            </div>
+            <div class="footer-bottom">
+                <p>702 Nguyen Van Linh, District 7, Ho Chi Minh City</p>
+                <p>info@nicereads.com | (123) 456-7890</p>
+                <p>&copy; 2023 Nicreads. All rights reserved.</p>
+            </div>
+        </footer>
+    <script src="../js/scripts.js"></script>
+    </body>
+</html>
