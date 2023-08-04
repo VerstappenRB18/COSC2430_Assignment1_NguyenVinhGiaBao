@@ -806,16 +806,17 @@ input[type], select, textarea {
         margin: 50px 40px;
     }
 
-    .book-data {
-        flex-basis: 100%;
-        box-sizing: border-box;
-    }
-
-    .pref-options label, .newsletter-options label {
-        width: auto;
-    }
-
     .contact-pref, .newsletter {
-        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pref-label, .newsletter-label {
+        width: 100%;
+    }
+
+    .pref-options, .newsletter-options {
+        display: flex;
+        justify-content: space-between;
     }
 }
